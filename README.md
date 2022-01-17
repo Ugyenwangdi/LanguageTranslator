@@ -13,7 +13,10 @@ $ pip install googletrans==4.0.0-rc1
 - also 
 
 $ pip install pipwin  # we need pipwin for installing pyaudio
+
 $ pipwin install pyaudio
+
 $ pip install SpeechRecognition
+
 $ pip install gtts
 
