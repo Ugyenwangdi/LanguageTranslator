@@ -1,0 +1,33 @@
+1/ Create a virtual environment 
+"""
+py -3 -m venv env
+.\env\Scripts\activate
+"""
+
+2/ To use Google Translate in Python, install using:
+"""
+pip install googletrans==4.0.0-rc1
+
+"""
+- also 
+"""
+pip install pipwin  # we need pipwin for installing pyaudio
+pipwin install pyaudio
+pip install SpeechRecognition
+pip install gtts
+"""
+
+3/ Create a python file: 'Translate.py' and import the googletrans to see all the supported languages
+"""
+import googletrans  # In order to use google trans library
+
+# Store all the supported languages in a variable
+supported_langs = googletrans.LANGUAGES   # This will be a python dictionary
+
+# Print all the languages in 
+i = 0
+for key, value in supported_langs.items():
+    i += 1
+    print(i,'. ', key, ':', value)
+
+"""
